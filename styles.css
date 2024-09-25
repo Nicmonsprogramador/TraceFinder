@@ -1,0 +1,115 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+.action-btn {
+    background-color: #4CAF50;
+    padding: 0.4rem 0.8rem;
+    margin-top: 1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #4CAF50;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+ul, ol, p {
+    margin: 0;
+    padding-left: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+canvas {
+    max-width: 100%;
+    margin: 1rem auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TraceFinder</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js para gráficos -->
+</head>
+<body>
+    <header>
+        <h1>TraceFinder: Encuentra al experto que necesitas</h1>
+        <button id="start-search">Comenzar búsqueda</button>
+    </header>
+
+    <main>
+        <!-- Misión -->
+        <section>
+            <h2>Nuestra misión</h2>
+            <p>Conectar personas que se han perdido de vista, empoderar brindando herramientas para encontrar respuestas, y simplificar la búsqueda haciéndola accesible y eficiente.</p>
+            <button class="action-btn">Saber más</button>
+        </section>
+
+        <!-- Cómo funciona -->
+        <section>
+            <h2>Cómo funciona TraceFinder</h2>
+            <figure>
+                <img src="como funciona.jpg" alt="Cómo funciona imagen">
+                <figcaption>IA avanzada para analizar grandes bases de datos.</figcaption>
+            </figure>
+            <ol>
+                <li><strong>Ingresa información:</strong> Proporciona datos relevantes como nombre, fecha de nacimiento, ciudad, etc.</li>
+                <li><strong>Tecnología de IA:</strong> Nuestra IA analiza bases de datos y redes sociales para buscar coincidencias.</li>
+                <li><strong>Resultados:</strong> Te presentamos posibles coincidencias con información detallada y confiable.</li>
+                <li><strong>Contacto:</strong> Te facilitamos las herramientas para contactarte con la persona que buscas.</li>
+            </ol>
+            <button class="action-btn">Ver detalles</button>
+        </section>
+
+        <!-- Características clave -->
+        <section>
+            <h2>Características clave</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Búsqueda avanzada</td>
+                        <td>Filtra por criterios específicos como edad, ubicación, profesión, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Base de datos extensa</td>
+                        <td>Accede a una base de datos masiva actualizada constantemente.</td>
+                    </tr>
+                    <tr>
+                        <td>Seguridad y privacidad</td>
+                        <td>Tu información está segura y protegida con las últimas tecnologías.</td>
+                    </tr>
+                    <tr>
+                        <td>Atención al cliente</td>
+                        <td>Un equipo dedicado te ayudará a encontrar a quien necesitas.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="action-btn">Explorar características</button>
+        </section>
+
+        <!-- Gráfico: Casos de Desaparecidos en Colombia -->
+        <section>
+            <h2>Casos de Desaparecidos en Colombia</h2>
+            <canvas id="desaparecidosChart" width="400" height="200"></canvas> <!-- Gráfico de desaparecidos -->
+            <p>Este gráfico muestra la evolución de los casos de personas desaparecidas en Colombia por año.</p>
+        </section>
+
+        <!-- Casos de éxito -->
+        <section>
+            <h2>Casos de éxito</h2>
+            <figure>
+                <img src="cassos de exito.jpg" alt="Casos de éxito imagen">
+                <figcaption>Ayudamos a familias a conectarse nuevamente, asistimos en investigaciones legales y facilitamos la búsqueda de amigos perdidos.</figcaption>
+            </figure>
+            <p>Reuniones familiares, investigaciones legales y búsquedas personales.</p>
+            <button class="action-btn">Ver casos</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Correo: info@tracefinder.com | Tel: +57 123 456 7890 | Bogotá, Colombia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
